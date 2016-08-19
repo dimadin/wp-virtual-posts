@@ -13,6 +13,6 @@
 		}
 	],
 	"autoload": {
-        "files": ["class-wp-virtual-posts"]
+        "files": ["class-wp-virtual-posts.php"]
     }
 }
