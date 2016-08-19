@@ -1,0 +1,18 @@
+{
+	"name": "dimadin/wp-virtual-posts",
+	"description": "Simple and standardized way of creating virtual, on-the-fly posts.",
+	"keywords": ["wordpress"],
+	"homepage": "https://github.com/dimadin/wp-virtual-posts",
+	"type": "library",
+	"license": "GPL",
+	"authors": [
+		{
+			"name": "Milan Dinić",
+			"email": "milan@srpski.biz",
+			"homepage": "http://blog.milandinic.com/"
+		}
+	],
+	"autoload": {
+        "files": ["class-wp-virtual-posts"]
+    }
+}
