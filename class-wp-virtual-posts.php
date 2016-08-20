@@ -128,7 +128,7 @@ class WP_Virtual_Posts {
 		// Setup post ID if not passed
 		if ( ! array_key_exists( 'ID', $r ) ) {
 			// ID is negative value of sum of current time and existing number of posts
-			$r['ID'] = time() + count( $this->posts );
+			$r['ID'] = -abs( time() + count( $this->posts ) );
 		}
 
 		// Setup post GMT date if not passed
